@@ -47,3 +47,14 @@ $routes->get('/', 'Home::index');
 if (is_file(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
     require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
 }
+
+//Route con relacion a al controlador LibrosController 
+$routes->get('/libros/lista', 'LibrosController::lista');
+$routes->get('/libros/crear', 'LibrosController::crear');
+$routes->get('/libros/modificar', 'LibrosController::modificar');
+
+
+//Route con relacion al controlador AutoresController
+$routes->get('/autores/lista', 'AutoresController::lista');
+$routes->get('/autores/crear', 'AutoresController::crear');
+$routes->get('/autores/modificar', 'AutoresController::modificar');
