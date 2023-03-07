@@ -1,0 +1,98 @@
+ERROR - 2023-03-07 03:53:02 --> mysqli_sql_exception: Table 'libros' already exists in C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `l...', 0)
+#1 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `l...')
+#2 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `l...')
+#3 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `l...')
+#4 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\app\Database\Migrations\2023-03-07-032736_Autores.php(42): CodeIgniter\Database\Forge->createTable('libros')
+#5 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MigrationRunner.php(877): App\Database\Migrations\Autores->up()
+#6 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-03-07 03:55:17 --> mysqli_sql_exception: Table 'libros' already exists in C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `l...', 0)
+#1 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `l...')
+#2 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `l...')
+#3 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `l...')
+#4 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\app\Database\Migrations\2023-03-07-032736_Autores.php(42): CodeIgniter\Database\Forge->createTable('libros')
+#5 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MigrationRunner.php(877): App\Database\Migrations\Autores->up()
+#6 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-03-07 03:56:39 --> mysqli_sql_exception: Table 'libros' already exists in C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `l...', 0)
+#1 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `l...')
+#2 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `l...')
+#3 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `l...')
+#4 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\app\Database\Migrations\2023-03-07-032736_Autores.php(42): CodeIgniter\Database\Forge->createTable('libros')
+#5 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MigrationRunner.php(877): App\Database\Migrations\Autores->up()
+#6 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-03-07 03:59:36 --> mysqli_sql_exception: Table 'libros' already exists in C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `l...', 0)
+#1 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `l...')
+#2 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `l...')
+#3 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `l...')
+#4 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\app\Database\Migrations\2023-03-07-032736_Autores.php(42): CodeIgniter\Database\Forge->createTable('libros')
+#5 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MigrationRunner.php(877): App\Database\Migrations\Autores->up()
+#6 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-03-07 04:00:01 --> mysqli_sql_exception: Table 'libros' already exists in C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `l...', 0)
+#1 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `l...')
+#2 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `l...')
+#3 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `l...')
+#4 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\app\Database\Migrations\2023-03-07-032736_Autores.php(42): CodeIgniter\Database\Forge->createTable('libros')
+#5 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MigrationRunner.php(877): App\Database\Migrations\Autores->up()
+#6 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-03-07 04:00:54 --> mysqli_sql_exception: Table 'libros' already exists in C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `l...', 0)
+#1 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `l...')
+#2 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `l...')
+#3 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `l...')
+#4 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\app\Database\Migrations\2023-03-07-032736_Autores.php(42): CodeIgniter\Database\Forge->createTable('libros')
+#5 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MigrationRunner.php(877): App\Database\Migrations\Autores->up()
+#6 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-03-07 04:01:29 --> mysqli_sql_exception: Table 'libros' already exists in C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `l...', 0)
+#1 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `l...')
+#2 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `l...')
+#3 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `l...')
+#4 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\app\Database\Migrations\2023-03-07-032736_Autores.php(42): CodeIgniter\Database\Forge->createTable('libros')
+#5 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MigrationRunner.php(877): App\Database\Migrations\Autores->up()
+#6 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
