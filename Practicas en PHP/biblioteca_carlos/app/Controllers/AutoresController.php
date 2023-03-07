@@ -3,12 +3,17 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
+use App\Models\Autor;
 
 class AutoresController extends BaseController
 {
     public function lista()
     {
-        return view('autor/list');
+        $autor = new Autor();
+        $datos['autores'] = $autor->orderBy('id', 'ASC')->findAll();
+
+
+        return view('autor/list', $datos);
     }
 
     public function crear(){

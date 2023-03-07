@@ -26,6 +26,7 @@
   <link rel="stylesheet" href="<?php echo base_url('plugins/daterangepicker/daterangepicker.css') ?>">
   <!-- summernote -->
   <link rel="stylesheet" href="<?php echo base_url('plugins/summernote/summernote-bs4.min.css') ?>">
+
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
@@ -255,7 +256,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/charts/chartjs.html" class="nav-link">
+                <a href="<?=site_url('/autores/lista') ?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Lista</p>
                 </a>
@@ -331,5 +332,7 @@
 <script src="<?php echo base_url('dist/js/demo.js') ?>"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="<?php echo base_url('dist/js/pages/dashboard.js') ?>"></script>
+
+
 </body>
 </html>

@@ -24,8 +24,13 @@ class Libros extends Migration
                 'type'       => 'VARCHAR',
                 'constraint' => '20',
             ],
+            'imagen' => [
+                'type'       => 'VARCHAR',
+                'constraint' => '100',
+                'null' => FALSE,
+            ],
             'fechaPublicacion' => [
-                'type'       => 'DATETIME',
+                'type'       => 'DATE',
             ],
             'fechaCreacion' => [
                 'type'       => 'DATETIME',

@@ -40,6 +40,10 @@ class Autores extends Migration
             'fechaEliminacion' => [
                 'type'       => 'DATETIME',
             ],
+            'status_id' => [
+                'type'       => 'INT',
+                'null' => FALSE,
+            ],
 
         ]);
         $this->forge->addKey('id', true);
