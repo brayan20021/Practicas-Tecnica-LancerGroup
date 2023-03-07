@@ -10,7 +10,7 @@
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active"><a class="btn btn-success">Agregar nuevo</a></li>
+              <li class="breadcrumb-item active"><a class="btn btn-success" href="<?=site_url('autores/crear') ?>">Agregar nuevo</a></li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->

@@ -2,6 +2,49 @@
 
 <?= $this->section('content'); ?>
 
+<script>
+
+function guardar(){
+
+nombre = document.getElementById('nombre').value;
+autor  = document.getElementById('autor').value;
+edicion = document.getElementById('edicion').value;
+
+datos = {
+    
+    nombre: nombre,
+    autor:  autor,
+    edicion: edicion
+
+}
+
+$.ajax({
+            url: '/libros/guardar',
+            type: 'POST',
+            data: datos, 
+            success: function(response) {
+            var vResultado = JSON.parse(response);
+            
+            if (vResultado && vResultado.RES_CODE) {
+                if (vResultado.RES_CODE = "00")
+                {
+                    alert(vResultado.RES_DESCRIPTION);
+                } else {
+                    alert(vResultado.RES_DESCRIPTION);
+                }
+            }
+
+            console.log('Respuesta recibida: ' + response);         
+        }
+
+    });
+
+
+}
+
+
+
+</script>
 
 <div class="container-fluid">
  
@@ -31,12 +74,12 @@
             <div class="col-md-6">
             <div class="form-group">
                 <label>Nombre del libro</label>
-                <input type="text" name="nombre" class="form-control" id="nombre">
+                <input type="text" name="nombre" id="nombre" class="form-control" >
             </div>
             <!-- /.form-group -->
             <div class="form-group">
                 <label>Imagen</label>
-                <input type="file" class="form-control" name="imagen" id="imagen"  aria-describedby="fileHelpId" required>
+                <input type="file" name="imagen" id="imagen" class="form-control"  aria-describedby="fileHelpId" required>
             </div>
             <!-- /.form-group -->
             </div>
@@ -58,7 +101,7 @@
             <!-- /.form-group -->
             <div class="form-group">
                 <label>Edicion</label>
-                <input type="text" class="form-control" id="exampleInputEmail1">
+                <input type="text" name="edicion" id="edicion" class="form-control" id="exampleInputEmail1">
             </div>
             <!-- /.form-group -->
             </div>
@@ -68,7 +111,7 @@
             </div>
             <!-- /.row -->
 
-            <center><button type="submit" class="btn btn-success">Guardar</button></center>
+            <center><button type="submit" onclick="guardar()" class="btn btn-success">Guardar</button></center>
 
             </div>
         <!-- /.card-body -->

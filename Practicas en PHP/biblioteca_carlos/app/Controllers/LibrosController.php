@@ -24,9 +24,47 @@ class LibrosController extends BaseController
         return view('libros/create', $datos);
 
     }
+    
+    public function guardar(){
+        $Resultado = new \stdClass();
+        $Resultado->RES_CODE = "";
+        $Resultado->RES_DESCRIPTION = "";
+
+        $vResultado = "";
+
+        try
+        {
+            $libro = new Libro();
+
+            $datos = [                
+                'nombre' => $this->request->getVar('nombre'),
+                'edicion' => $this->request->getVar('edicion'),
+                'fechaPublicacion' => date('Y-m-d'),
+            ];
+                        
+            $libro->insert($datos);
+
+            //$vResultado = "PROCESADO";
+            $Resultado->RES_CODE = "00";
+            $Resultado->RES_DESCRIPTION = "TRANSACCION PROCESADA";
+        } catch (\Exception  $ed) {
+            ///$eo = $ed->getMessage();
+            //$vResultado = "SE PRODUJO UN ERROR, INTENTELO MAS TARDE.";
+            $Resultado->RES_CODE = "01";
+            $Resultado->RES_DESCRIPTION = "TRANSACCION FALLIDA";
+        }
+       // $myJSON = json_encode($myObj);
+        return json_encode($Resultado);
+    }
 
     public function modificar(){
 
         return view('libros/modify');
     }
+
+    public function verlibro(){
+
+        return view('libros/showbook');
+    }
+
 }

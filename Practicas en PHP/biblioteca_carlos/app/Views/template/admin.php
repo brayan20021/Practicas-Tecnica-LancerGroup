@@ -262,7 +262,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/charts/flot.html" class="nav-link">
+                <a href="<?=site_url('autores/crear') ?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>crear</p>
                 </a>
@@ -333,6 +333,7 @@
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="<?php echo base_url('dist/js/pages/dashboard.js') ?>"></script>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
 </body>
 </html>

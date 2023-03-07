@@ -14,7 +14,7 @@ class Autor extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = [];
+    protected $allowedFields = ['nombre', 'apellido', 'pais', 'fechaCreacion'];
 
     // Dates
     protected $useTimestamps = false;

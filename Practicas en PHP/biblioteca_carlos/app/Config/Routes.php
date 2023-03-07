@@ -51,10 +51,13 @@ if (is_file(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
 //Route con relacion a al controlador LibrosController 
 $routes->get('/libros/lista', 'LibrosController::lista');
 $routes->get('/libros/crear', 'LibrosController::crear');
+$routes->post('/libros/guardar', 'LibrosController::guardar');
 $routes->get('/libros/modificar', 'LibrosController::modificar');
+$routes->get('/libros/verlibro', 'LibrosController::verlibro');
 
 
 //Route con relacion al controlador AutoresController
 $routes->get('/autores/lista', 'AutoresController::lista');
 $routes->get('/autores/crear', 'AutoresController::crear');
+$routes->post('/autores/guardar', 'AutoresController::guardar');
 $routes->get('/autores/modificar', 'AutoresController::modificar');
