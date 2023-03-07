@@ -53,7 +53,7 @@ $routes->get('/libros/lista', 'LibrosController::lista');
 $routes->get('/libros/crear', 'LibrosController::crear');
 $routes->post('/libros/guardar', 'LibrosController::guardar');
 $routes->get('/libros/modificar', 'LibrosController::modificar');
-$routes->get('/libros/verlibro', 'LibrosController::verlibro');
+$routes->get('/libros/verlibro/(:num)', 'LibrosController::verlibro/$1');
 
 
 //Route con relacion al controlador AutoresController

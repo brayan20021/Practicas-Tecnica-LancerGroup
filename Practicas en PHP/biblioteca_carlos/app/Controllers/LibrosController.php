@@ -62,9 +62,11 @@ class LibrosController extends BaseController
         return view('libros/modify');
     }
 
-    public function verlibro(){
+    public function verlibro($id = null){
 
-        return view('libros/showbook');
+        $libro = new Libro();
+        $datos['libros'] = $libro->where('id',$id)->first();        
+        return view('libros/showbook', $datos);
     }
 
 }

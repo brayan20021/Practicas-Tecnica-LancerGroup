@@ -18,7 +18,6 @@ class AutoresController extends BaseController
 
     public function crear(){
 
-
         return view('autor/create');
 
     }

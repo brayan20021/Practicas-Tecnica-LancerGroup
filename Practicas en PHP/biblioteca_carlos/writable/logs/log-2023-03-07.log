@@ -566,3 +566,167 @@ in SYSTEMPATH\Database\BaseConnection.php on line 645.
  7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
  8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 23:02:42 --> Call to undefined method App\Models\Libro::get_where
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\LibrosController.php(68): CodeIgniter\Model->__call('get_where', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 23:02:42 --> Call to undefined method App\Models\Libro::get_where
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\LibrosController.php(68): CodeIgniter\Model->__call('get_where', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 23:02:48 --> Call to undefined method App\Models\Libro::get_where
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\LibrosController.php(68): CodeIgniter\Model->__call('get_where', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 23:02:49 --> Call to undefined method App\Models\Libro::get_where
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\LibrosController.php(68): CodeIgniter\Model->__call('get_where', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 23:03:23 --> Call to undefined method App\Models\Libro::get_where
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\LibrosController.php(68): CodeIgniter\Model->__call('get_where', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 23:03:24 --> Call to undefined method App\Models\Libro::get_where
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\LibrosController.php(68): CodeIgniter\Model->__call('get_where', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 23:03:50 --> Call to undefined method App\Models\Libro::get_where
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\LibrosController.php(68): CodeIgniter\Model->__call('get_where', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 23:03:50 --> Call to undefined method App\Models\Libro::get_where
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\LibrosController.php(68): CodeIgniter\Model->__call('get_where', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 23:04:03 --> Call to undefined method App\Models\Libro::get_where
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\LibrosController.php(68): CodeIgniter\Model->__call('get_where', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 23:04:03 --> Call to undefined method App\Models\Libro::get_where
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\LibrosController.php(68): CodeIgniter\Model->__call('get_where', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 23:04:04 --> Call to undefined method App\Models\Libro::get_where
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\LibrosController.php(68): CodeIgniter\Model->__call('get_where', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 23:04:05 --> Call to undefined method App\Models\Libro::get_where
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\LibrosController.php(68): CodeIgniter\Model->__call('get_where', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 23:04:14 --> Call to undefined method App\Models\Libro::get_where
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\LibrosController.php(68): CodeIgniter\Model->__call('get_where', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 23:04:15 --> Call to undefined method App\Models\Libro::get_where
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\LibrosController.php(68): CodeIgniter\Model->__call('get_where', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 23:06:42 --> Undefined variable $libro
+in APPPATH\Views\libros\showbook.php on line 35.
+ 1 APPPATH\Views\libros\showbook.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libro', 'APPPATH\\Views\\libros\\showbook.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\showbook.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/showbook', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(69): view('libros/showbook', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 23:06:42 --> Undefined variable $libro
+in APPPATH\Views\libros\showbook.php on line 35.
+ 1 APPPATH\Views\libros\showbook.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libro', 'APPPATH\\Views\\libros\\showbook.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\showbook.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/showbook', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(69): view('libros/showbook', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 23:06:53 --> Undefined array key "name"
+in APPPATH\Views\libros\showbook.php on line 35.
+ 1 APPPATH\Views\libros\showbook.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Views\\libros\\showbook.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\showbook.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/showbook', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(69): view('libros/showbook', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 23:06:54 --> Undefined array key "name"
+in APPPATH\Views\libros\showbook.php on line 35.
+ 1 APPPATH\Views\libros\showbook.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Views\\libros\\showbook.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\showbook.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/showbook', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(69): view('libros/showbook', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 23:06:55 --> Undefined array key "name"
+in APPPATH\Views\libros\showbook.php on line 35.
+ 1 APPPATH\Views\libros\showbook.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Views\\libros\\showbook.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\showbook.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/showbook', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(69): view('libros/showbook', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 23:06:56 --> Undefined array key "name"
+in APPPATH\Views\libros\showbook.php on line 35.
+ 1 APPPATH\Views\libros\showbook.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Views\\libros\\showbook.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\showbook.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/showbook', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(69): view('libros/showbook', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

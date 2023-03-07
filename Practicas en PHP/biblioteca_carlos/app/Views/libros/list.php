@@ -45,7 +45,7 @@
                       <td><?php echo $libro['nombre']; ?></td>
                       <td><?php echo $libro['fechaPublicacion']; ?></td>
                       <td><?php echo $libro['edicion']; ?></td>
-                      <td><a class="btn btn-primary">Detalles</a></span></td>
+                      <td><a class="btn btn-primary" href="<?= base_url('/libros/verlibro/'. $libro['id']) ?>">Detalles</a></span></td>
                     </tr>
 
                     <?php } ?>
