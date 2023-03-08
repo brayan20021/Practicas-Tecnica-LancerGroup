@@ -28,7 +28,7 @@ class LibrosController extends BaseController
     }
     
     public function guardar(){
-        
+
                         $Resultado = new \stdClass();
                         $Resultado->RES_CODE = "";
                         $Resultado->RES_DESCRIPTION = "";
@@ -80,9 +80,41 @@ class LibrosController extends BaseController
 
     }
 
-    public function modificar(){
+    public function modificar($id = null){
 
-        return view('libros/modify');
+        $libro = new Libro();
+        $datos['libros'] = $libro->where('id',$id)->first();
+
+        return view('libros/modify', $datos);
+
+    }
+
+    public function actualizar(){
+
+        $libro = new Libro();
+
+        $datos=[
+
+            'nombre' => $this->request->getVar('nombre'),
+            'edicion' => $this->request->getVar('edicion'),
+            'fechaModificacion' => date('Y-m-d'),
+
+
+        ];
+
+        $id = $this->request->getVar('id');
+ 
+        $libro->update($id, $datos);
+
+    }
+    public function borrarlibro($id = null){
+
+        $libro = new Libro();
+        
+        $libro->where('id',$id)->delete($id);
+        
+        return $this->response->redirect(site_url('/libros/lista'));
+
     }
 
     public function verlibro($id = null){
@@ -102,5 +134,6 @@ class LibrosController extends BaseController
         
         return view('libros/showbook', $datos);
     }
+
 
 }

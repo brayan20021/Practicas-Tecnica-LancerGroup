@@ -14,7 +14,7 @@ class Libro extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields = ['nombre', 'edicion', 'fechaPublicacion'];
+    protected $allowedFields = ['nombre', 'edicion', 'fechaPublicacion', 'fechaModificacion', 'fechaEliminacion'];
 
     // Dates
     protected $useTimestamps = false;

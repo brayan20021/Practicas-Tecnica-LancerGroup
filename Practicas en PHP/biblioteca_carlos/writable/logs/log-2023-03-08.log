@@ -1018,3 +1018,570 @@ in APPPATH\Views\libros\showbook.php on line 67.
  6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
  7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:35:58 --> Undefined variable $libro
+in APPPATH\Views\libros\showbook.php on line 50.
+ 1 APPPATH\Views\libros\showbook.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libro', 'APPPATH\\Views\\libros\\showbook.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\showbook.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/showbook', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(103): view('libros/showbook', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('18')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:35:59 --> Undefined variable $libro
+in APPPATH\Views\libros\showbook.php on line 50.
+ 1 APPPATH\Views\libros\showbook.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libro', 'APPPATH\\Views\\libros\\showbook.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\showbook.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/showbook', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(103): view('libros/showbook', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('18')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:36:07 --> Undefined variable $libro
+in APPPATH\Views\libros\showbook.php on line 50.
+ 1 APPPATH\Views\libros\showbook.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libro', 'APPPATH\\Views\\libros\\showbook.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\showbook.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/showbook', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(103): view('libros/showbook', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('18')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:36:07 --> Undefined variable $libro
+in APPPATH\Views\libros\showbook.php on line 50.
+ 1 APPPATH\Views\libros\showbook.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libro', 'APPPATH\\Views\\libros\\showbook.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\showbook.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/showbook', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(103): view('libros/showbook', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('18')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:36:10 --> Undefined variable $libro
+in APPPATH\Views\libros\showbook.php on line 50.
+ 1 APPPATH\Views\libros\showbook.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libro', 'APPPATH\\Views\\libros\\showbook.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\showbook.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/showbook', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(103): view('libros/showbook', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('18')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:36:10 --> Undefined variable $libro
+in APPPATH\Views\libros\showbook.php on line 50.
+ 1 APPPATH\Views\libros\showbook.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libro', 'APPPATH\\Views\\libros\\showbook.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\showbook.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/showbook', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(103): view('libros/showbook', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('18')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:36:34 --> Undefined variable $libro
+in APPPATH\Views\libros\showbook.php on line 50.
+ 1 APPPATH\Views\libros\showbook.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libro', 'APPPATH\\Views\\libros\\showbook.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\showbook.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/showbook', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(103): view('libros/showbook', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('18')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:36:34 --> Undefined variable $libro
+in APPPATH\Views\libros\showbook.php on line 50.
+ 1 APPPATH\Views\libros\showbook.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libro', 'APPPATH\\Views\\libros\\showbook.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\showbook.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/showbook', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(103): view('libros/showbook', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('18')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:36:35 --> Undefined variable $libro
+in APPPATH\Views\libros\showbook.php on line 50.
+ 1 APPPATH\Views\libros\showbook.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libro', 'APPPATH\\Views\\libros\\showbook.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\showbook.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/showbook', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(103): view('libros/showbook', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('18')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:36:40 --> Undefined variable $libro
+in APPPATH\Views\libros\showbook.php on line 50.
+ 1 APPPATH\Views\libros\showbook.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libro', 'APPPATH\\Views\\libros\\showbook.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\showbook.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/showbook', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(103): view('libros/showbook', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('18')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:36:40 --> Undefined variable $libro
+in APPPATH\Views\libros\showbook.php on line 50.
+ 1 APPPATH\Views\libros\showbook.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libro', 'APPPATH\\Views\\libros\\showbook.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\showbook.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/showbook', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(103): view('libros/showbook', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('18')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:39:15 --> Undefined variable $libro
+in APPPATH\Views\libros\showbook.php on line 50.
+ 1 APPPATH\Views\libros\showbook.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libro', 'APPPATH\\Views\\libros\\showbook.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\showbook.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/showbook', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(103): view('libros/showbook', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('18')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:39:16 --> Undefined variable $libro
+in APPPATH\Views\libros\showbook.php on line 50.
+ 1 APPPATH\Views\libros\showbook.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libro', 'APPPATH\\Views\\libros\\showbook.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\showbook.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/showbook', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(103): view('libros/showbook', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->verlibro('18')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:41:38 --> Invalid file: "libros/autoradd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/autoradd.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/autoradd', [], true)
+ 3 APPPATH\Controllers\LibrosController.php(108): view('libros/autoradd')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('18')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:41:38 --> Invalid file: "libros/autoradd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/autoradd.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/autoradd', [], true)
+ 3 APPPATH\Controllers\LibrosController.php(108): view('libros/autoradd')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('18')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:41:44 --> Invalid file: "libros/autoradd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/autoradd.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/autoradd', [], true)
+ 3 APPPATH\Controllers\LibrosController.php(108): view('libros/autoradd')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('18')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:41:45 --> Invalid file: "libros/autoradd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/autoradd.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/autoradd', [], true)
+ 3 APPPATH\Controllers\LibrosController.php(108): view('libros/autoradd')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('18')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:42:10 --> Invalid file: "libros/autoradd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/autoradd.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/autoradd', [], true)
+ 3 APPPATH\Controllers\LibrosController.php(108): view('libros/autoradd')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('18')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:42:10 --> Invalid file: "libros/autoradd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/autoradd.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/autoradd', [], true)
+ 3 APPPATH\Controllers\LibrosController.php(108): view('libros/autoradd')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('18')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:42:26 --> Invalid file: "libros/autoradd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/autoradd.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/autoradd', [], true)
+ 3 APPPATH\Controllers\LibrosController.php(108): view('libros/autoradd')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:42:26 --> Invalid file: "libros/autoradd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/autoradd.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/autoradd', [], true)
+ 3 APPPATH\Controllers\LibrosController.php(108): view('libros/autoradd')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:42:48 --> Invalid file: "libros/autoradd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/autoradd.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/autoradd', [], true)
+ 3 APPPATH\Controllers\LibrosController.php(108): view('libros/autoradd')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:42:48 --> Invalid file: "libros/autoradd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/autoradd.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/autoradd', [], true)
+ 3 APPPATH\Controllers\LibrosController.php(108): view('libros/autoradd')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:42:59 --> Invalid file: "libros/autoradd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/autoradd.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/autoradd', [], true)
+ 3 APPPATH\Controllers\LibrosController.php(108): view('libros/autoradd')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:43:00 --> Invalid file: "libros/autoradd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/autoradd.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/autoradd', [], true)
+ 3 APPPATH\Controllers\LibrosController.php(108): view('libros/autoradd')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:43:13 --> Invalid file: "libros/autoradd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/autoradd.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/autoradd', [], true)
+ 3 APPPATH\Controllers\LibrosController.php(108): view('libros/autoradd')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:43:13 --> Invalid file: "libros/autoradd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/autoradd.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/autoradd', [], true)
+ 3 APPPATH\Controllers\LibrosController.php(108): view('libros/autoradd')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:43:15 --> Invalid file: "libros/autoradd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/autoradd.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/autoradd', [], true)
+ 3 APPPATH\Controllers\LibrosController.php(108): view('libros/autoradd')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:43:15 --> Invalid file: "libros/autoradd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/autoradd.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/autoradd', [], true)
+ 3 APPPATH\Controllers\LibrosController.php(108): view('libros/autoradd')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:43:19 --> Invalid file: "libros/autoradd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/autoradd.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/autoradd', [], true)
+ 3 APPPATH\Controllers\LibrosController.php(108): view('libros/autoradd')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:43:20 --> Invalid file: "libros/autoradd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/autoradd.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/autoradd', [], true)
+ 3 APPPATH\Controllers\LibrosController.php(108): view('libros/autoradd')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:44:21 --> Invalid file: "libros/autoradd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/autoradd.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/autoradd', [], true)
+ 3 APPPATH\Controllers\LibrosController.php(108): view('libros/autoradd')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:44:21 --> Invalid file: "libros/autoradd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/autoradd.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/autoradd', [], true)
+ 3 APPPATH\Controllers\LibrosController.php(108): view('libros/autoradd')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:44:39 --> Invalid file: "libros/autoradd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/autoradd.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/autoradd', [], true)
+ 3 APPPATH\Controllers\LibrosController.php(108): view('libros/autoradd')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:44:40 --> Invalid file: "libros/autoradd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/autoradd.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/autoradd', [], true)
+ 3 APPPATH\Controllers\LibrosController.php(108): view('libros/autoradd')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:44:40 --> Invalid file: "libros/autoradd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/autoradd.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/autoradd', [], true)
+ 3 APPPATH\Controllers\LibrosController.php(108): view('libros/autoradd')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:44:41 --> Invalid file: "libros/autoradd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/autoradd.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/autoradd', [], true)
+ 3 APPPATH\Controllers\LibrosController.php(108): view('libros/autoradd')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:45:29 --> Invalid file: "libros/autoradd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/autoradd.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/autoradd', [], true)
+ 3 APPPATH\Controllers\LibrosController.php(108): view('libros/autoradd')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:45:30 --> Invalid file: "libros/autoradd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/autoradd.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/autoradd', [], true)
+ 3 APPPATH\Controllers\LibrosController.php(108): view('libros/autoradd')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:47:54 --> Undefined variable $autores
+in APPPATH\Views\libros\create.php on line 94.
+ 1 APPPATH\Views\libros\create.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $autores', 'APPPATH\\Views\\libros\\create.php', 94)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/create', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(108): view('libros/create')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:47:54 --> Undefined variable $autores
+in APPPATH\Views\libros\create.php on line 94.
+ 1 APPPATH\Views\libros\create.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $autores', 'APPPATH\\Views\\libros\\create.php', 94)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/create', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(108): view('libros/create')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:47:56 --> Undefined variable $autores
+in APPPATH\Views\libros\create.php on line 94.
+ 1 APPPATH\Views\libros\create.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $autores', 'APPPATH\\Views\\libros\\create.php', 94)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/create', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(108): view('libros/create')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:47:56 --> Undefined variable $autores
+in APPPATH\Views\libros\create.php on line 94.
+ 1 APPPATH\Views\libros\create.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $autores', 'APPPATH\\Views\\libros\\create.php', 94)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/create', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(108): view('libros/create')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:48:26 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Controllers\LibrosController.php on line 109.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LibrosController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LibrosController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LibrosController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LibrosController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:48:27 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Controllers\LibrosController.php on line 109.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\LibrosController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LibrosController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LibrosController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\LibrosController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:48:51 --> Invalid file: "libros/autoradd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/autoradd.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/autoradd', [], true)
+ 3 APPPATH\Controllers\LibrosController.php(108): view('libros/autoradd')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:48:52 --> Invalid file: "libros/autoradd.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/autoradd.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/autoradd', [], true)
+ 3 APPPATH\Controllers\LibrosController.php(108): view('libros/autoradd')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:54:22 --> Undefined variable $autores
+in APPPATH\Views\libros\modify.php on line 94.
+ 1 APPPATH\Views\libros\modify.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $autores', 'APPPATH\\Views\\libros\\modify.php', 94)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\modify.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/modify', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(85): view('libros/modify')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->modificar('ROOTPATH\\public')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:54:23 --> Undefined variable $autores
+in APPPATH\Views\libros\modify.php on line 94.
+ 1 APPPATH\Views\libros\modify.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $autores', 'APPPATH\\Views\\libros\\modify.php', 94)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\modify.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/modify', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(85): view('libros/modify')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->modificar('ROOTPATH\\public')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:57:41 --> Trying to access array offset on value of type null
+in APPPATH\Views\libros\modify.php on line 92.
+ 1 APPPATH\Views\libros\modify.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\libros\\modify.php', 92)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\modify.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/modify', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(88): view('libros/modify', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->modificar('ROOTPATH\\public')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:57:42 --> Trying to access array offset on value of type null
+in APPPATH\Views\libros\modify.php on line 92.
+ 1 APPPATH\Views\libros\modify.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\libros\\modify.php', 92)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\modify.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/modify', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(88): view('libros/modify', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->modificar('ROOTPATH\\public')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:57:57 --> Trying to access array offset on value of type null
+in APPPATH\Views\libros\modify.php on line 92.
+ 1 APPPATH\Views\libros\modify.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\libros\\modify.php', 92)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\modify.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/modify', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(88): view('libros/modify', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->modificar('ROOTPATH\\public')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:57:57 --> Trying to access array offset on value of type null
+in APPPATH\Views\libros\modify.php on line 92.
+ 1 APPPATH\Views\libros\modify.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\libros\\modify.php', 92)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\modify.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/modify', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(88): view('libros/modify', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->modificar('ROOTPATH\\public')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:58:04 --> Trying to access array offset on value of type null
+in APPPATH\Views\libros\modify.php on line 92.
+ 1 APPPATH\Views\libros\modify.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\libros\\modify.php', 92)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\modify.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/modify', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(88): view('libros/modify', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->modificar('ROOTPATH\\public')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 02:58:04 --> Trying to access array offset on value of type null
+in APPPATH\Views\libros\modify.php on line 92.
+ 1 APPPATH\Views\libros\modify.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\libros\\modify.php', 92)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\modify.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/modify', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(88): view('libros/modify', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->modificar('ROOTPATH\\public')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 03:53:07 --> Undefined variable $autor
+in APPPATH\Views\autor\modify.php on line 77.
+ 1 APPPATH\Views\autor\modify.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $autor', 'APPPATH\\Views\\autor\\modify.php', 77)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\autor\\modify.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('autor/modify', [], true)
+ 5 APPPATH\Controllers\AutoresController.php(29): view('autor/modify')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->modificarautor('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 03:53:07 --> Undefined variable $autor
+in APPPATH\Views\autor\modify.php on line 77.
+ 1 APPPATH\Views\autor\modify.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $autor', 'APPPATH\\Views\\autor\\modify.php', 77)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\autor\\modify.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('autor/modify', [], true)
+ 5 APPPATH\Controllers\AutoresController.php(29): view('autor/modify')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->modificarautor('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

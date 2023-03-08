@@ -43,7 +43,12 @@
                       <td><?php echo $autor['id']; ?>.</td>
                       <td><?php echo $autor['nombre']; ?></td>
                       <td><?php echo $autor['pais']; ?></td>
-                      <td><a class="btn btn-primary">detalles</a></td>
+                      <td>
+                      <a class="btn btn-primary">detalles</a>
+                      <a class="btn btn-warning" href="<?=base_url('/autores/modificar/'. $autor['id']) ?>">modificar</a>
+                      <a class="btn btn-danger" href="<?=base_url('/borrarautor/'. $autor['id']) ?>" >Eliminar</a>
+                      </td>
+                      
                     </tr>
 
                     <?php } ?>

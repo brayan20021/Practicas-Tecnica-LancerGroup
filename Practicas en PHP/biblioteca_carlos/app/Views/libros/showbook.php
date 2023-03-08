@@ -47,7 +47,7 @@
                   </li>
                 </ul>
 
-                <a href="#" class="btn btn-primary btn-block"><b>Follow</b></a>
+                <a href="<?=base_url('/libros/agregarautor/'.$libros['id']) ?>" class="btn btn-primary btn-block"><b>Añadir Nuevo autor</b></a>
               </div>
               <!-- /.card-body -->
             </div>
@@ -68,7 +68,7 @@
                      <p class="text-danger" style="margin-bottom: 5px;">
                      <?php echo $autor->nombre . " " .$autor->apellido ?></p>
                      <?php } ?>
-                     
+
                   </li>
                   <li class="list-group-item">
                     <b class="text-primary">Descripcion:</b> <a class="float-right">1,322</a>

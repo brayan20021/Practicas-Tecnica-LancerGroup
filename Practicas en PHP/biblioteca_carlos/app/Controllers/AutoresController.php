@@ -22,6 +22,44 @@ class AutoresController extends BaseController
 
     }
 
+    public function modificarautor($id = null){
+
+        $autor = new Autor();
+        $datos['autor'] = $autor->where('id',$id)->first();
+        return view('autor/modify', $datos);
+
+    }
+
+    public function actualizarautor(){
+
+        $libro = new Autor();
+
+        $datos=[
+
+            'nombre' => $this->request->getVar('nombre'),
+            'apellido' => $this->request->getVar('apellido'),
+            'pais' => $this->request->getVar('pais'),
+            'fechaModificacion' => date('Y-m-d'),
+
+
+        ];
+
+        $id = $this->request->getVar('id');
+ 
+        $libro->update($id, $datos);
+        
+
+    }
+
+    public function borrarautor($id = null){
+
+        $autor = new Autor();
+        $autor->where('id',$id)->delete($id);
+        
+        return $this->response->redirect(site_url('/autores/lista'));
+
+    }
+
     public function guardar(){
 
         $Resultado = new \stdClass();

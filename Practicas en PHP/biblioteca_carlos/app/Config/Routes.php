@@ -52,12 +52,18 @@ if (is_file(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
 $routes->get('/libros/lista', 'LibrosController::lista');
 $routes->get('/libros/crear', 'LibrosController::crear');
 $routes->post('/libros/guardar', 'LibrosController::guardar');
-$routes->get('/libros/modificar', 'LibrosController::modificar');
+$routes->get('/libros/modificar/(:num)', 'LibrosController::modificar/$1');
+$routes->post('/libros/actualizar', 'LibrosController::actualizar');
+$routes->get('borrarlibro/(:num)', 'LibrosController::borrarlibro/$1');
 $routes->get('/libros/verlibro/(:num)', 'LibrosController::verlibro/$1');
+$routes->get('/libros/agregarautor', 'LibrosController::agregarautor');
 
 
 //Route con relacion al controlador AutoresController
 $routes->get('/autores/lista', 'AutoresController::lista');
 $routes->get('/autores/crear', 'AutoresController::crear');
 $routes->post('/autores/guardar', 'AutoresController::guardar');
+$routes->get('/autores/modificar/(:num)', 'AutoresController::modificarautor/$1');
+$routes->post('/autores/actualizar', 'AutoresController::actualizarautor');
+$routes->get('borrarautor/(:num)', 'AutoresController::borrarautor/$1');
 $routes->get('/autores/modificar', 'AutoresController::modificar');
