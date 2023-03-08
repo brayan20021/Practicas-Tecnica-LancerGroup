@@ -2645,3 +2645,111 @@ in APPPATH\Views\autor\showactor.php on line 35.
  7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
  8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 21:44:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::andwhere()
+in APPPATH\Controllers\LibrosController.php on line 185.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('2')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 21:44:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::andwhere()
+in APPPATH\Controllers\LibrosController.php on line 185.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('2')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-08 21:53:09 --> mysqli_sql_exception: Unknown column 'autor_ids' in 'where clause' in C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\app\Controllers\AutoresController.php(93): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(934): App\Controllers\AutoresController->verautor('4')
+#7 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+#8 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-08 21:53:09 --> Unknown column 'autor_ids' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `autores_libros`
+WHERE `autor_ids` = :autor_ids:', [...], false)
+ 2 SYSTEMPATH\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Controllers\AutoresController.php(93): CodeIgniter\Model->countAllResults()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->verautor('4')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-08 21:53:09 --> mysqli_sql_exception: Unknown column 'autor_ids' in 'where clause' in C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\app\Controllers\AutoresController.php(93): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(934): App\Controllers\AutoresController->verautor('4')
+#7 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+#8 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-08 21:53:09 --> Unknown column 'autor_ids' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `autores_libros`
+WHERE `autor_ids` = :autor_ids:', [...], false)
+ 2 SYSTEMPATH\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Controllers\AutoresController.php(93): CodeIgniter\Model->countAllResults()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->verautor('4')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-08 21:53:11 --> mysqli_sql_exception: Unknown column 'autor_ids' in 'where clause' in C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\app\Controllers\AutoresController.php(93): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(934): App\Controllers\AutoresController->verautor('4')
+#7 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+#8 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-08 21:53:11 --> Unknown column 'autor_ids' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `autores_libros`
+WHERE `autor_ids` = :autor_ids:', [...], false)
+ 2 SYSTEMPATH\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Controllers\AutoresController.php(93): CodeIgniter\Model->countAllResults()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->verautor('4')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-08 21:53:11 --> mysqli_sql_exception: Unknown column 'autor_ids' in 'where clause' in C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\app\Controllers\AutoresController.php(93): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(934): App\Controllers\AutoresController->verautor('4')
+#7 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+#8 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-08 21:53:11 --> Unknown column 'autor_ids' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `autores_libros`
+WHERE `autor_ids` = :autor_ids:', [...], false)
+ 2 SYSTEMPATH\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 3 APPPATH\Controllers\AutoresController.php(93): CodeIgniter\Model->countAllResults()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->verautor('4')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

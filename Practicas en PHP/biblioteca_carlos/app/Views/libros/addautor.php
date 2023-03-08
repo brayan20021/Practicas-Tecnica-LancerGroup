@@ -30,7 +30,7 @@
 
                 <?php foreach($autores as $autor) { ?>
                   
-                  <option value="<?php echo $autor['id'] ?>"><?php echo $autor['nombre'] ?></option>
+                  <option value="<?php echo $autor['id'] ?>"><p><?php echo $autor['nombre'] ?> &nbsp;</p><?php echo $autor['apellido'] ?> </option>
 
                 <?php } ?>
                 

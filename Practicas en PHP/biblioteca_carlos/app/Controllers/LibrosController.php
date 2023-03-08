@@ -22,7 +22,7 @@ class LibrosController extends BaseController
     public function crear(){
 
         $autor = new Autor();
-        $datos['autores'] = $autor->orderBy('id', 'ASC')->findAll();
+        $datos['autores'] = $autor->where('eliminado',0)->findAll();
 
         return view('libros/create', $datos);
 
@@ -167,16 +167,6 @@ class LibrosController extends BaseController
         $libro = new Libro();
         $datos['libros'] = $libro->where('id',$id)->first();
 
-        $autor = new Autor();
-        $autorL = new AutorLibro();
-        //$datos['autores1'] = $autor->where('id',$id)->first();
-
-         //$datos['autores'] = $autor->join($autorL);
-         
-         //$datos['autores'] = $autor->where('id',$id)->first()
-         
-        // $datos['autores'] = $autor->join('autores_libros', 'autores.id = autores_libros.autor_id')
-        // ->where('autores_libros.libro_id !=', $id);
         $db = \Config\Database::connect();
         $datos['autores'] = $db->table('autores')
         ->select('autores.nombre, autores.id, autores.apellido')

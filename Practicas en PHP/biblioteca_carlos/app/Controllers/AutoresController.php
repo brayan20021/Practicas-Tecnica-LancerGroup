@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use App\Models\Autor;
+use App\Models\AutorLibro;
 use Exception;
 
 class AutoresController extends BaseController
@@ -86,9 +87,10 @@ class AutoresController extends BaseController
     public function verautor($id= null){
 
         $autor = new Autor();
+        $librocantd = new AutorLibro();
 
         $datos['autores'] = $autor->where('id',$id)->first();
-        $datos['canxautores'] = $autor->where('id', $id)->countAllResults();
+        $datos['canxautores'] = $librocantd->where('autor_id', $id)->countAllResults();
 
         return view('autor/showactor',$datos);
 
