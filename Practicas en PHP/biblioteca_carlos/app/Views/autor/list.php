@@ -9,7 +9,6 @@
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
               <li class="breadcrumb-item active"><a class="btn btn-success" href="<?=site_url('autores/crear') ?>">Agregar nuevo</a></li>
             </ol>
           </div><!-- /.col -->
@@ -30,11 +29,11 @@
                 <table class="table table-bordered">
                   <thead>
                     <tr>
-                      <th style="width: 10px">#</th>
+                      <th>#</th>
                       <th>Nombre</th>
                       <th>Apellido</th>
                       <th>Pais</th>
-                      <th >Accion</th>
+                      <th>Accion</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -46,7 +45,6 @@
                       <td><?php echo $autor['apellido']; ?></td>
                       <td><?php echo $autor['pais']; ?></td>
                       <td>
-                      <a class="btn btn-primary">detalles</a>
                       <a class="btn btn-warning" href="<?=base_url('/autores/modificar/'. $autor['id']) ?>">modificar</a>
                       <a class="btn btn-danger" href="<?=base_url('/borrarautor/'. $autor['id']) ?>" >Eliminar</a>
                       </td>

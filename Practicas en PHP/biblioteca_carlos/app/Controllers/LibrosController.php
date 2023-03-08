@@ -161,5 +161,33 @@ class LibrosController extends BaseController
         return view('libros/showbook', $datos);
     }
 
+    public function agregarautor($id = null){
+
+        $libro = new Libro();
+        $datos['libros'] = $libro->where('id',$id)->first();
+
+        $autor = new Autor();
+        $datos['autores'] = $autor->orderBy('id', 'ASC')->findAll();
+
+        return view('libros/addautor', $datos);
+
+    }
+
+    public function agregandoautor(){
+
+            $autorlibro = new AutorLibro();
+
+            $datos = [                
+                'autor_id' => $this->request->getVar('autor'),
+                'libro_id' => $this->request->getVar('libro'),
+            ];
+            $libroid = $this->request->getVar('libro');
+                        
+            $autorlibro->insert($datos);
+
+            return $this->response->redirect(site_url('libros/verlibro/'.$libroid));
+
+    }
+
 
 }

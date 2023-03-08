@@ -45,7 +45,7 @@ class AutoresController extends BaseController
             $session->setFlashdata('mensaje', 'Asegurate que todos los datos esten correctamente, solo utiliza caracteres alfabeticos');
 
         } else {    
-        $libro = new Autor();
+        $autor = new Autor();
 
         $datos=[
 
@@ -59,7 +59,7 @@ class AutoresController extends BaseController
 
         $id = $this->request->getVar('id');
  
-        $libro->update($id, $datos);
+        $autor->update($id, $datos);
 
         }   
 
@@ -68,7 +68,15 @@ class AutoresController extends BaseController
     public function borrarautor($id = null){
 
         $autor = new Autor();
-        $autor->where('id',$id)->delete($id);
+
+        $datos=[
+
+            'fechaEliminacion' =>  date('Y-m-d'),
+            'eliminado' => '1',
+
+        ];
+        
+        $autor->update($id, $datos);
         
         return $this->response->redirect(site_url('/autores/lista'));
 

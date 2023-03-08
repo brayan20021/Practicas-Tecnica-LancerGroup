@@ -43,7 +43,7 @@ class Autores extends Migration
             
             'eliminado' => [
                 'type' => 'BOOLEAN',
-                'default' => TRUE
+                'default' => FALSE,
             ],
 
         ]);

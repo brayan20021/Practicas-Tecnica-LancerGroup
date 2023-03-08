@@ -56,7 +56,8 @@ $routes->get('/libros/modificar/(:num)', 'LibrosController::modificar/$1');
 $routes->post('/libros/actualizar', 'LibrosController::actualizar');
 $routes->get('borrarlibro/(:num)', 'LibrosController::borrarlibro/$1');
 $routes->get('/libros/verlibro/(:num)', 'LibrosController::verlibro/$1');
-$routes->get('/libros/agregarautor', 'LibrosController::agregarautor');
+$routes->get('/libros/agregarautor/(:num)', 'LibrosController::agregarautor/$1');
+$routes->post('/libros/agregandoautor/', 'LibrosController::agregandoautor');
 
 
 //Route con relacion al controlador AutoresController
