@@ -26,9 +26,8 @@
             <div class="card card-primary card-outline">
             <div class="card-body box-profile">
                 <div class="text-center">
-                <img class="profile-user-img img-fluid"
-                    src="../../dist/img/libro-portada.png"
-                    alt="User profile picture">
+                <img class="profile-user-img img-fluid img-circle"
+                 src="../../dist/img/user1-128x128.jpg" alt="User profile picture">
                 </div>
 
                 <h3 class="profile-username text-center"><?=$autores['nombre']; ?></h3>
@@ -39,10 +38,10 @@
                     <b>Nombre:</b> <a class="float-right"><?=$autores['nombre']; ?></a>
                   </li>
                   <li class="list-group-item">
-                    <b>Cantidad de libros:</b> <a class="float-right"><?php echo $canxautores ?></a>
+                    <b>Apellido:</b> <a class="float-right"><?=$autores['apellido']; ?></a>
                   </li>
                   <li class="list-group-item">
-                    <b>Edicion:</b> <a class="float-right"></a>
+                    <b>Cantidad de libros:</b> <a class="float-right"><strong><?php echo $canxautores ?></strong></a>
                   </li>
                 </ul>
 

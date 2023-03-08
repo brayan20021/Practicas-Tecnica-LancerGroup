@@ -108,7 +108,10 @@ $.ajax({
             </div>
             <!-- /.row -->
 
-            <center><button type="submit" onclick="guardar()" class="btn btn-success">Guardar</button></center>
+            <center>
+                <button type="submit" onclick="guardar()" class="btn btn-success">Guardar</button>
+                <a class="btn btn-warning" href="<?=site_url('libros/lista') ?>">Cancelar</a>
+            </center>
 
             </div>
         <!-- /.card-body -->
