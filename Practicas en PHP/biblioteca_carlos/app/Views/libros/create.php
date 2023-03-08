@@ -9,12 +9,14 @@ function guardar(){
 nombre = document.getElementById('nombre').value;
 autor  = document.getElementById('autor').value;
 edicion = document.getElementById('edicion').value;
+autorid = document.getElementById('autor').value;
 
 datos = {
     
     nombre: nombre,
     autor:  autor,
-    edicion: edicion
+    edicion: edicion,
+    autor: autorid
 
 }
 
@@ -76,10 +78,9 @@ $.ajax({
                 <label>Nombre del libro</label>
                 <input type="text" name="nombre" id="nombre" class="form-control" >
             </div>
-            <!-- /.form-group -->
             <div class="form-group">
-                <label>Imagen</label>
-                <input type="file" name="imagen" id="imagen" class="form-control"  aria-describedby="fileHelpId" required>
+                <label>Edicion</label>
+                <input type="text" name="edicion" id="edicion" class="form-control" id="exampleInputEmail1">
             </div>
             <!-- /.form-group -->
             </div>
@@ -98,11 +99,7 @@ $.ajax({
 
                 </select>
             </div>
-            <!-- /.form-group -->
-            <div class="form-group">
-                <label>Edicion</label>
-                <input type="text" name="edicion" id="edicion" class="form-control" id="exampleInputEmail1">
-            </div>
+
             <!-- /.form-group -->
             </div>
 

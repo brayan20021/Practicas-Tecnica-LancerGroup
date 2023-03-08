@@ -33,7 +33,7 @@
                 </div>
 
                 <h3 class="profile-username text-center"><?=$libros['nombre']; ?></h3>
-                <p class="text-muted text-center">Detalles del libro</p>
+                <p class="text-muted text-center">Imagen generica (ejemplo)</p>
 
                 <ul class="list-group list-group-unbordered mb-3">
                   <li class="list-group-item">
@@ -62,7 +62,13 @@
                 <div class="tab-content">
                 <ul class="list-group list-group-unbordered mb-3">
                   <li class="list-group-item">
-                    <b class="text-primary">Autor/es:</b> <a class="float-right">1,322</a>
+                    <b class="text-primary">Autor/es:</b>
+
+                    <?php foreach($autores as $autor) { ?>
+                     <p class="text-danger" style="margin-bottom: 5px;">
+                     <?php echo $autor->nombre . " " .$autor->apellido ?></p>
+                     <?php } ?>
+                     
                   </li>
                   <li class="list-group-item">
                     <b class="text-primary">Descripcion:</b> <a class="float-right">1,322</a>
