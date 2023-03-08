@@ -40,9 +40,10 @@ class Autores extends Migration
             'fechaEliminacion' => [
                 'type'       => 'DATETIME',
             ],
-            'status_id' => [
-                'type'       => 'INT',
-                'null' => FALSE,
+            
+            'eliminado' => [
+                'type' => 'BOOLEAN',
+                'default' => TRUE
             ],
 
         ]);

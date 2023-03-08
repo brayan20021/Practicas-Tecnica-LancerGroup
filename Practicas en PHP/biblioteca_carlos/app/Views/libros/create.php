@@ -28,7 +28,7 @@ $.ajax({
             var vResultado = JSON.parse(response);
             
             if (vResultado && vResultado.RES_CODE) {
-                if (vResultado.RES_CODE = "00")
+                if (vResultado.RES_CODE = "00" || vResultado.RES_CODE == "")
                 {
                     alert(vResultado.RES_DESCRIPTION);
                 } else {
@@ -67,7 +67,7 @@ $.ajax({
 
         <div class="card card-default">
             <div class="card-header">
-            <h3 class="card-title">Favor llenar los datos correspondiente</h3>
+            <h3 class="card-title">Todos los datos son requeridos</h3>
         </div>
         
         <!-- /.card-header -->
@@ -76,11 +76,11 @@ $.ajax({
             <div class="col-md-6">
             <div class="form-group">
                 <label>Nombre del libro</label>
-                <input type="text" name="nombre" id="nombre" class="form-control" >
+                <input type="text" name="nombre" id="nombre" class="form-control" required>
             </div>
             <div class="form-group">
                 <label>Edicion</label>
-                <input type="text" name="edicion" id="edicion" class="form-control" id="exampleInputEmail1">
+                <input type="text" name="edicion" id="edicion" class="form-control" required>
             </div>
             <!-- /.form-group -->
             </div>
@@ -89,7 +89,7 @@ $.ajax({
             <div class="form-group">
                 <label>Autor</label>
                 <select name="autor" id="autor" class="form-control" style="width: 100%;">
-                <option selected="selected">Selecciona un autor</option>
+                <option selected="selected" value="">Selecciona un autor</option>
 
                 <?php foreach($autores as $autor) { ?>
                     

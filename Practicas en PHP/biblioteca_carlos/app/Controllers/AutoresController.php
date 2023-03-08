@@ -32,6 +32,19 @@ class AutoresController extends BaseController
 
     public function actualizarautor(){
 
+        $validacion = $this->validate([
+
+            'nombre' => 'required|alpha_space|max_length[60]',
+            'apellido' => 'required|alpha_space|max_length[60]',
+            'pais' => 'required|alpha_space|max_length[60]',
+        
+            ]);
+
+        if(!$validacion){
+            $session = session();
+            $session->setFlashdata('mensaje', 'Asegurate que todos los datos esten correctamente, solo utiliza caracteres alfabeticos');
+
+        } else {    
         $libro = new Autor();
 
         $datos=[
@@ -47,7 +60,8 @@ class AutoresController extends BaseController
         $id = $this->request->getVar('id');
  
         $libro->update($id, $datos);
-        
+
+        }   
 
     }
 
@@ -62,41 +76,36 @@ class AutoresController extends BaseController
 
     public function guardar(){
 
-        $Resultado = new \stdClass();
-        $Resultado->RES_CODE = "";
-        $Resultado->RES_DESCRIPTION = "";
 
-        $vResultado = "";
+            $validacion = $this->validate([
 
-        try
-        {
-            $autor = new Autor();
+            'nombre' => 'required|alpha_space|min_length[1]|max_length[60]',
+            'apellido' => 'required|alpha_space|min_length[1]|max_length[60]',
+            'pais' => 'required|alpha_space|min_length[1]|max_length[60]',
+        
+            ]);
 
-            $datos = [                
-                'nombre' => $this->request->getVar('nombre'),
-                'apellido' => $this->request->getVar('apellido'),
-                'pais' => $this->request->getVar('pais'),
-                'fechaCreacion' => date('Y-m-d'),
-            ];
-                        
-            $autor->insert($datos);
+        if(!$validacion){
+            $session = session();
+            $session->setFlashdata('mensaje', 'Asegurate que todos los datos esten correctamente, solo utiliza caracteres alfabeticos');
+            
+                
+            /* return $this->response->redirect(site_url('/listar')); */
+            
+                } else {
+                    $autor = new Autor();
 
-            //$vResultado = "PROCESADO";
-            $Resultado->RES_CODE = "00";
-            $Resultado->RES_DESCRIPTION = "TRANSACCION PROCESADA";
-        } catch (\Exception  $ed) {
-            ///$eo = $ed->getMessage();
-            //$vResultado = "SE PRODUJO UN ERROR, INTENTELO MAS TARDE.";
-            $Resultado->RES_CODE = "01";
-            $Resultado->RES_DESCRIPTION = "TRANSACCION FALLIDA";
-        }
-       // $myJSON = json_encode($myObj);
-        return json_encode($Resultado);
+                    $datos = [                
+                        'nombre' => $this->request->getVar('nombre'),
+                        'apellido' => $this->request->getVar('apellido'),
+                        'pais' => $this->request->getVar('pais'),
+                        'fechaCreacion' => date('Y-m-d'),
+                    ];
+                                
+                    $autor->insert($datos);
 
+             }
     }
 
-    public function modificar(){
 
-        return view('autor/modify');
-    }
 }

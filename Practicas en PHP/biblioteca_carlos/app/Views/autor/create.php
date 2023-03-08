@@ -23,28 +23,25 @@ $.ajax({
             type: 'POST',
             data: datos, 
             success: function(response) {
-            var vResultado = JSON.parse(response);
-            
-            if (vResultado && vResultado.RES_CODE) {
-                if (vResultado.RES_CODE = "00")
-                {
-                    alert(vResultado.RES_DESCRIPTION);
-                } else {
-                    alert(vResultado.RES_DESCRIPTION);
-                }
-            }
 
             console.log('Respuesta recibida: ' + response);         
         }
 
     });
 
+    window.location.href = "/autores/lista";
 
 }
 
-
-
 </script>
+
+<?php  if(session('mensaje')) { ?>
+
+<div class="alert alert-danger" role="alert">
+  <strong><?php echo session('mensaje') ?></strong>
+</div>
+
+<?php } ?>
 
 <div class="container-fluid">
  

@@ -32,6 +32,7 @@
                     <tr>
                       <th style="width: 10px">#</th>
                       <th>Nombre</th>
+                      <th>Apellido</th>
                       <th>Pais</th>
                       <th >Accion</th>
                     </tr>
@@ -42,6 +43,7 @@
                     <tr>
                       <td><?php echo $autor['id']; ?>.</td>
                       <td><?php echo $autor['nombre']; ?></td>
+                      <td><?php echo $autor['apellido']; ?></td>
                       <td><?php echo $autor['pais']; ?></td>
                       <td>
                       <a class="btn btn-primary">detalles</a>

@@ -29,54 +29,67 @@ class LibrosController extends BaseController
     
     public function guardar(){
 
-                        $Resultado = new \stdClass();
-                        $Resultado->RES_CODE = "";
-                        $Resultado->RES_DESCRIPTION = "";
+            $Resultado = new \stdClass();
+            $Resultado->RES_CODE = "";
+            $Resultado->RES_DESCRIPTION = "";
 
-                        $vResultado = "";
+            $vResultado = "";
 
-                        try
-                        {
+            try
+            {
+                
+                $validacion = $this->validate([
 
-                            //proceso para agregar el libro segun los datos
-                            $libro = new Libro();
+                    'nombre' => 'required',
+                    'edicion' => 'required',
+                    'autor' => 'integer|required',
+                
+                    ]);
+        
+                if(!$validacion){
+                    $session = session();
+                    $session->setFlashdata('mensaje', 'Asegurate que todos los datos esten correctamente, solo utiliza caracteres alfabeticos');
+                    } else {
+                //proceso para agregar el libro segun los datos
+                $libro = new Libro();
 
-                                    $datos = [                
-                                        'nombre' => $this->request->getVar('nombre'),
-                                        'edicion' => $this->request->getVar('edicion'),
-                                        'fechaPublicacion' => date('Y-m-d'),
-                                    ];           
+                        $datos = [                
+                            'nombre' => $this->request->getVar('nombre'),
+                            'edicion' => $this->request->getVar('edicion'),
+                            'fechaPublicacion' => date('Y-m-d'),
+                        ];           
 
-                            $libro->insert($datos);
+                $libro->insert($datos);
 
 
 
-                            //En esta parte es para insertar el ultimo id del libro que
-                            //corresponde al actor que se acabo de registrar con el objetivo
-                            //de obtener una relacion entre el libro y el autor
-                            $ultimolibroid = $libro->orderBy('id', 'ASC')->getInsertID();
-                            $ultimolibroid = json_encode($ultimolibroid);
+                //En esta parte es para insertar el ultimo id del libro que
+                //corresponde al actor que se acabo de registrar con el objetivo
+                //de obtener una relacion entre el libro y el autor
+                $ultimolibroid = $libro->orderBy('id', 'ASC')->getInsertID();
+                $ultimolibroid = json_encode($ultimolibroid);
 
-                            $autorlibro = new AutorLibro();
+                $autorlibro = new AutorLibro();
 
-                                    $datos2 = [
-                                        'autor_id' => $this->request->getVar('autor'),
-                                        'libro_id' => $ultimolibroid
-                                    ]; 
-                                
-                            $autorlibro->insert($datos2);
+                        $datos2 = [
+                            'autor_id' => $this->request->getVar('autor'),
+                            'libro_id' => $ultimolibroid
+                        ]; 
+                    
+                $autorlibro->insert($datos2);
 
-                            //$vResultado = "PROCESADO";
-                            $Resultado->RES_CODE = "00";
-                            $Resultado->RES_DESCRIPTION = "TRANSACCION PROCESADA";
-                            } catch (\Exception  $ed) {
-                                ///$eo = $ed->getMessage();
-                                //$vResultado = "SE PRODUJO UN ERROR, INTENTELO MAS TARDE.";
-                                $Resultado->RES_CODE = "01";
-                                $Resultado->RES_DESCRIPTION = "TRANSACCION FALLIDA";
-                            }
-                    // $myJSON = json_encode($myObj);
-                    return json_encode($Resultado);
+                //$vResultado = "PROCESADO";
+                $Resultado->RES_CODE = "00";
+                $Resultado->RES_DESCRIPTION = "Registro exitoso";
+                    }
+            } catch (\Exception  $ed) {
+                ///$eo = $ed->getMessage();
+                //$vResultado = "SE PRODUJO UN ERROR, INTENTELO MAS TARDE.";
+                $Resultado->RES_CODE = "01";
+                $Resultado->RES_DESCRIPTION = "Fallido, asegurate llenar todos los campos";
+            }
+    // $myJSON = json_encode($myObj);
+    return json_encode($Resultado);
 
     }
 
@@ -91,20 +104,33 @@ class LibrosController extends BaseController
 
     public function actualizar(){
 
-        $libro = new Libro();
+         $validacion = $this->validate([
 
-        $datos=[
+            'nombre' => 'required',
+            'edicion' => 'required',
+        
+            ]);
 
-            'nombre' => $this->request->getVar('nombre'),
-            'edicion' => $this->request->getVar('edicion'),
-            'fechaModificacion' => date('Y-m-d'),
+        if(!$validacion){
+            $session = session();
+            $session->setFlashdata('mensaje', 'Asegurate que todos los datos esten correctamente, solo utiliza caracteres alfabeticos');
 
+            } else {
+            $libro = new Libro();
 
-        ];
+            $datos=[
 
-        $id = $this->request->getVar('id');
- 
-        $libro->update($id, $datos);
+                'nombre' => $this->request->getVar('nombre'),
+                'edicion' => $this->request->getVar('edicion'),
+                'fechaModificacion' => date('Y-m-d'),
+
+            ];
+
+            $id = $this->request->getVar('id');
+    
+            $libro->update($id, $datos);
+
+            }    
 
     }
     public function borrarlibro($id = null){
