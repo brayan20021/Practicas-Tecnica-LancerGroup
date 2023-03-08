@@ -68,3 +68,4 @@ $routes->get('/autores/modificar/(:num)', 'AutoresController::modificarautor/$1'
 $routes->post('/autores/actualizar', 'AutoresController::actualizarautor');
 $routes->get('borrarautor/(:num)', 'AutoresController::borrarautor/$1');
 $routes->get('/autores/modificar', 'AutoresController::modificar');
+$routes->get('/autores/verautor/(:num)', 'AutoresController::verautor/$1');

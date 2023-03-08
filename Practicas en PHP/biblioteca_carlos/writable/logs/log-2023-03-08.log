@@ -2024,3 +2024,624 @@ in SYSTEMPATH\BaseModel.php on line 924.
  5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
  6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 19:25:23 --> Division by zero
+in APPPATH\Controllers\AutoresController.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 19:25:25 --> Division by zero
+in APPPATH\Controllers\AutoresController.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 19:25:28 --> Division by zero
+in APPPATH\Controllers\AutoresController.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 19:25:32 --> Division by zero
+in APPPATH\Controllers\AutoresController.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 19:26:06 --> Division by zero
+in APPPATH\Controllers\AutoresController.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 19:27:15 --> Division by zero
+in APPPATH\Controllers\AutoresController.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 19:27:35 --> Division by zero
+in APPPATH\Controllers\AutoresController.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 19:28:00 --> Division by zero
+in APPPATH\Controllers\AutoresController.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 19:28:33 --> Division by zero
+in APPPATH\Controllers\AutoresController.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 19:50:59 --> Cannot use object of type stdClass as array
+in APPPATH\Views\libros\addautor.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/addautor', [], true)
+ 4 APPPATH\Controllers\LibrosController.php(177): view('libros/addautor', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 19:50:59 --> Cannot use object of type stdClass as array
+in APPPATH\Views\libros\addautor.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/addautor', [], true)
+ 4 APPPATH\Controllers\LibrosController.php(177): view('libros/addautor', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 19:51:55 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\libros\addautor.php on line 31.
+ 1 APPPATH\Views\libros\addautor.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Views\\libros\\addautor.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\addautor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/addautor', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(178): view('libros/addautor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 19:51:56 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\libros\addautor.php on line 31.
+ 1 APPPATH\Views\libros\addautor.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Views\\libros\\addautor.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\addautor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/addautor', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(178): view('libros/addautor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 19:51:58 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\libros\addautor.php on line 31.
+ 1 APPPATH\Views\libros\addautor.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Views\\libros\\addautor.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\addautor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/addautor', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(178): view('libros/addautor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 19:51:58 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\libros\addautor.php on line 31.
+ 1 APPPATH\Views\libros\addautor.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Views\\libros\\addautor.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\addautor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/addautor', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(178): view('libros/addautor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-08 19:54:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`autores_libros`.`libro_id` = '1'' at line 4 in C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `autores...', 0)
+#1 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `autores...')
+#2 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `autores...')
+#3 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `autores...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\app\Controllers\LibrosController.php(174): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+#6 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+#7 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-08 19:54:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`autores_libros`.`libro_id` = '1'' at line 4
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `autores`.`nombre`, `autores`.`apellido`
+FROM `autores`
+JOIN `autores_libros` ON `autores`.`id` = `autores_libros`.`autor_id`
+WHERE `NOT` `autores_libros`.`libro_id` = :NOT autores_libros.libro_id:', [...], false)
+ 2 APPPATH\Controllers\LibrosController.php(174): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-08 19:54:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`autores_libros`.`libro_id` = '1'' at line 4 in C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `autores...', 0)
+#1 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `autores...')
+#2 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `autores...')
+#3 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `autores...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\app\Controllers\LibrosController.php(174): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+#6 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+#7 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-08 19:54:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`autores_libros`.`libro_id` = '1'' at line 4
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `autores`.`nombre`, `autores`.`apellido`
+FROM `autores`
+JOIN `autores_libros` ON `autores`.`id` = `autores_libros`.`autor_id`
+WHERE `NOT` `autores_libros`.`libro_id` = :NOT autores_libros.libro_id:', [...], false)
+ 2 APPPATH\Controllers\LibrosController.php(174): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-08 19:54:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`autores_libros`.`libro_id` = '1'' at line 4 in C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `autores...', 0)
+#1 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `autores...')
+#2 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `autores...')
+#3 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `autores...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\app\Controllers\LibrosController.php(174): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+#6 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+#7 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-08 19:54:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`autores_libros`.`libro_id` = '1'' at line 4
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `autores`.`nombre`, `autores`.`apellido`
+FROM `autores`
+JOIN `autores_libros` ON `autores`.`id` = `autores_libros`.`autor_id`
+WHERE `NOT` `autores_libros`.`libro_id` = :NOT autores_libros.libro_id:', [...], false)
+ 2 APPPATH\Controllers\LibrosController.php(174): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-08 19:54:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`autores_libros`.`libro_id` = '1'' at line 4 in C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `autores...', 0)
+#1 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `autores...')
+#2 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `autores...')
+#3 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `autores...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\app\Controllers\LibrosController.php(174): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+#6 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+#7 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-08 19:54:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`autores_libros`.`libro_id` = '1'' at line 4
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `autores`.`nombre`, `autores`.`apellido`
+FROM `autores`
+JOIN `autores_libros` ON `autores`.`id` = `autores_libros`.`autor_id`
+WHERE `NOT` `autores_libros`.`libro_id` = :NOT autores_libros.libro_id:', [...], false)
+ 2 APPPATH\Controllers\LibrosController.php(174): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-08 19:54:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`autores_libros`.`libro_id` = '1'' at line 4 in C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `autores...', 0)
+#1 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `autores...')
+#2 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `autores...')
+#3 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `autores...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\app\Controllers\LibrosController.php(174): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+#6 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+#7 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-08 19:54:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`autores_libros`.`libro_id` = '1'' at line 4
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `autores`.`nombre`, `autores`.`apellido`
+FROM `autores`
+JOIN `autores_libros` ON `autores`.`id` = `autores_libros`.`autor_id`
+WHERE `NOT` `autores_libros`.`libro_id` = :NOT autores_libros.libro_id:', [...], false)
+ 2 APPPATH\Controllers\LibrosController.php(174): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-08 19:54:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`autores_libros`.`libro_id` = '1'' at line 4 in C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `autores...', 0)
+#1 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `autores...')
+#2 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `autores...')
+#3 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `autores...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\app\Controllers\LibrosController.php(174): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+#6 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+#7 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-08 19:54:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`autores_libros`.`libro_id` = '1'' at line 4
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `autores`.`nombre`, `autores`.`apellido`
+FROM `autores`
+JOIN `autores_libros` ON `autores`.`id` = `autores_libros`.`autor_id`
+WHERE `NOT` `autores_libros`.`libro_id` = :NOT autores_libros.libro_id:', [...], false)
+ 2 APPPATH\Controllers\LibrosController.php(174): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 20:03:34 --> Trying to access array offset on value of type null
+in APPPATH\Views\libros\addautor.php on line 33.
+ 1 APPPATH\Views\libros\addautor.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\libros\\addautor.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\addautor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/addautor', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(179): view('libros/addautor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 20:03:35 --> Trying to access array offset on value of type null
+in APPPATH\Views\libros\addautor.php on line 33.
+ 1 APPPATH\Views\libros\addautor.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\libros\\addautor.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\addautor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/addautor', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(179): view('libros/addautor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 20:03:36 --> Trying to access array offset on value of type null
+in APPPATH\Views\libros\addautor.php on line 33.
+ 1 APPPATH\Views\libros\addautor.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\libros\\addautor.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\addautor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/addautor', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(179): view('libros/addautor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 20:03:36 --> Trying to access array offset on value of type null
+in APPPATH\Views\libros\addautor.php on line 33.
+ 1 APPPATH\Views\libros\addautor.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\libros\\addautor.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\addautor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/addautor', [], true)
+ 5 APPPATH\Controllers\LibrosController.php(179): view('libros/addautor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 20:07:17 --> CodeIgniter\Database\BaseBuilder::join(): Argument #1 ($table) must be of type string, App\Models\AutorLibro given, called in C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 617.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->join(Object(App\Models\AutorLibro))
+ 2 APPPATH\Controllers\LibrosController.php(173): CodeIgniter\Model->__call('join', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 20:07:17 --> CodeIgniter\Database\BaseBuilder::join(): Argument #1 ($table) must be of type string, App\Models\AutorLibro given, called in C:\xampp\htdocs\biblioteca\Practicas-Tecnica-LancerGroup\Practicas en PHP\biblioteca_carlos\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 617.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->join(Object(App\Models\AutorLibro))
+ 2 APPPATH\Controllers\LibrosController.php(173): CodeIgniter\Model->__call('join', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 20:15:10 --> Cannot use object of type stdClass as array
+in APPPATH\Views\libros\addautor.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/addautor', [], true)
+ 4 APPPATH\Controllers\LibrosController.php(188): view('libros/addautor', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 20:15:10 --> Cannot use object of type stdClass as array
+in APPPATH\Views\libros\addautor.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/addautor', [], true)
+ 4 APPPATH\Controllers\LibrosController.php(188): view('libros/addautor', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 20:18:52 --> get_object_vars(): Argument #1 ($object) must be of type object, array given
+in APPPATH\Controllers\LibrosController.php on line 186.
+ 1 APPPATH\Controllers\LibrosController.php(186): get_object_vars([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 20:18:52 --> get_object_vars(): Argument #1 ($object) must be of type object, array given
+in APPPATH\Controllers\LibrosController.php on line 186.
+ 1 APPPATH\Controllers\LibrosController.php(186): get_object_vars([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 20:19:01 --> get_object_vars(): Argument #1 ($object) must be of type object, array given
+in APPPATH\Controllers\LibrosController.php on line 186.
+ 1 APPPATH\Controllers\LibrosController.php(186): get_object_vars([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 20:19:02 --> get_object_vars(): Argument #1 ($object) must be of type object, array given
+in APPPATH\Controllers\LibrosController.php on line 186.
+ 1 APPPATH\Controllers\LibrosController.php(186): get_object_vars([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 20:20:15 --> Cannot use object of type stdClass as array
+in APPPATH\Views\libros\addautor.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/addautor', [], true)
+ 4 APPPATH\Controllers\LibrosController.php(188): view('libros/addautor', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 20:20:15 --> Cannot use object of type stdClass as array
+in APPPATH\Views\libros\addautor.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/addautor', [], true)
+ 4 APPPATH\Controllers\LibrosController.php(188): view('libros/addautor', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 20:22:26 --> Cannot use object of type stdClass as array
+in APPPATH\Views\libros\addautor.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/addautor', [], true)
+ 4 APPPATH\Controllers\LibrosController.php(188): view('libros/addautor', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('2')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 20:22:27 --> Cannot use object of type stdClass as array
+in APPPATH\Views\libros\addautor.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/addautor', [], true)
+ 4 APPPATH\Controllers\LibrosController.php(188): view('libros/addautor', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('2')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 20:23:09 --> Cannot use object of type stdClass as array
+in APPPATH\Views\libros\addautor.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/addautor', [], true)
+ 4 APPPATH\Controllers\LibrosController.php(188): view('libros/addautor', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('2')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 20:23:09 --> Cannot use object of type stdClass as array
+in APPPATH\Views\libros\addautor.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/addautor', [], true)
+ 4 APPPATH\Controllers\LibrosController.php(188): view('libros/addautor', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('2')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 20:23:13 --> Cannot use object of type stdClass as array
+in APPPATH\Views\libros\addautor.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/addautor', [], true)
+ 4 APPPATH\Controllers\LibrosController.php(188): view('libros/addautor', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 20:23:13 --> Cannot use object of type stdClass as array
+in APPPATH\Views\libros\addautor.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/addautor', [], true)
+ 4 APPPATH\Controllers\LibrosController.php(188): view('libros/addautor', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LibrosController->agregarautor('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LibrosController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 20:53:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::group_by()
+in APPPATH\Controllers\AutoresController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->lista()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 20:53:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::group_by()
+in APPPATH\Controllers\AutoresController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->lista()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 20:59:32 --> Undefined array key "cantidad"
+in APPPATH\Views\autor\list.php on line 48.
+ 1 APPPATH\Views\autor\list.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantidad"', 'APPPATH\\Views\\autor\\list.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\autor\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('autor/list', [], true)
+ 5 APPPATH\Controllers\AutoresController.php(17): view('autor/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 20:59:32 --> Undefined array key "cantidad"
+in APPPATH\Views\autor\list.php on line 48.
+ 1 APPPATH\Views\autor\list.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantidad"', 'APPPATH\\Views\\autor\\list.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\autor\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('autor/list', [], true)
+ 5 APPPATH\Controllers\AutoresController.php(17): view('autor/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->lista()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 21:14:28 --> Invalid file: "autor.showactor"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('autor.showactor')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('autor.showactor', [], true)
+ 3 APPPATH\Controllers\AutoresController.php(136): view('autor.showactor')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->verautor('5')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 21:14:29 --> Invalid file: "autor.showactor"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('autor.showactor')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('autor.showactor', [], true)
+ 3 APPPATH\Controllers\AutoresController.php(136): view('autor.showactor')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->verautor('5')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 21:14:30 --> Invalid file: "autor.showactor"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('autor.showactor')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('autor.showactor', [], true)
+ 3 APPPATH\Controllers\AutoresController.php(136): view('autor.showactor')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->verautor('5')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 21:14:30 --> Invalid file: "autor.showactor"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('autor.showactor')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('autor.showactor', [], true)
+ 3 APPPATH\Controllers\AutoresController.php(136): view('autor.showactor')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->verautor('5')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 21:14:51 --> Invalid file: "autor.showactor"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('autor.showactor')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('autor.showactor', [], true)
+ 3 APPPATH\Controllers\AutoresController.php(136): view('autor.showactor')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->verautor('5')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 21:15:10 --> Invalid file: "autor.showactor"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('autor.showactor')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('autor.showactor', [], true)
+ 3 APPPATH\Controllers\AutoresController.php(136): view('autor.showactor')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->verautor('5')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 21:15:10 --> Invalid file: "autor.showactor"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('autor.showactor')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('autor.showactor', [], true)
+ 3 APPPATH\Controllers\AutoresController.php(136): view('autor.showactor')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->verautor('5')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 21:15:11 --> Invalid file: "autor.showactor"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('autor.showactor')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('autor.showactor', [], true)
+ 3 APPPATH\Controllers\AutoresController.php(136): view('autor.showactor')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->verautor('5')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 21:15:11 --> Invalid file: "autor.showactor"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('autor.showactor')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('autor.showactor', [], true)
+ 3 APPPATH\Controllers\AutoresController.php(136): view('autor.showactor')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->verautor('5')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 21:15:36 --> Invalid file: "autor.showactor"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('autor.showactor')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('autor.showactor', [], true)
+ 3 APPPATH\Controllers\AutoresController.php(136): view('autor.showactor')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->verautor('5')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 21:15:36 --> Invalid file: "autor.showactor"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('autor.showactor')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('autor.showactor', [], true)
+ 3 APPPATH\Controllers\AutoresController.php(136): view('autor.showactor')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->verautor('5')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 21:19:10 --> Undefined variable $libros
+in APPPATH\Views\autor\showactor.php on line 35.
+ 1 APPPATH\Views\autor\showactor.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libros', 'APPPATH\\Views\\autor\\showactor.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\autor\\showactor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('autor/showactor', [], true)
+ 5 APPPATH\Controllers\AutoresController.php(92): view('autor/showactor')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->verautor('5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 21:19:11 --> Undefined variable $libros
+in APPPATH\Views\autor\showactor.php on line 35.
+ 1 APPPATH\Views\autor\showactor.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libros', 'APPPATH\\Views\\autor\\showactor.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\autor\\showactor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('autor/showactor', [], true)
+ 5 APPPATH\Controllers\AutoresController.php(92): view('autor/showactor')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->verautor('5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 21:20:08 --> Undefined variable $autores
+in APPPATH\Views\autor\showactor.php on line 35.
+ 1 APPPATH\Views\autor\showactor.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $autores', 'APPPATH\\Views\\autor\\showactor.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\autor\\showactor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('autor/showactor', [], true)
+ 5 APPPATH\Controllers\AutoresController.php(92): view('autor/showactor')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->verautor('5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-08 21:20:08 --> Undefined variable $autores
+in APPPATH\Views\autor\showactor.php on line 35.
+ 1 APPPATH\Views\autor\showactor.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $autores', 'APPPATH\\Views\\autor\\showactor.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\autor\\showactor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('autor/showactor', [], true)
+ 5 APPPATH\Controllers\AutoresController.php(92): view('autor/showactor')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AutoresController->verautor('5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoresController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -12,6 +12,7 @@ class LibrosController extends BaseController
 {
     public function lista()
     {
+
         $libro = new Libro();
 
         $datos['libros'] = $libro->orderBy('id', 'ASC')->findAll();
@@ -167,7 +168,25 @@ class LibrosController extends BaseController
         $datos['libros'] = $libro->where('id',$id)->first();
 
         $autor = new Autor();
-        $datos['autores'] = $autor->orderBy('id', 'ASC')->findAll();
+        $autorL = new AutorLibro();
+        //$datos['autores1'] = $autor->where('id',$id)->first();
+
+         //$datos['autores'] = $autor->join($autorL);
+         
+         //$datos['autores'] = $autor->where('id',$id)->first()
+         
+        // $datos['autores'] = $autor->join('autores_libros', 'autores.id = autores_libros.autor_id')
+        // ->where('autores_libros.libro_id !=', $id);
+        $db = \Config\Database::connect();
+        $datos['autores'] = $db->table('autores')
+        ->select('autores.nombre, autores.id, autores.apellido')
+        ->join('autores_libros', 'autores.id = autores_libros.autor_id')
+        ->where('autores_libros.libro_id !=', $id)
+        ->get()
+        ->getResultObject();
+        $datos['autores'] = json_decode(json_encode($datos['autores']), true);
+    
+        //return print_r(json_decode(json_encode($datos['autores']), true));
 
         return view('libros/addautor', $datos);
 

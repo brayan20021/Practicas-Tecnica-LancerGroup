@@ -10,8 +10,7 @@
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active"><a class="btn btn-danger" href="<?php site_url('/libros/lista') ?>">Regresar</a></li>
+              <li class="breadcrumb-item active"><a class="btn btn-danger">Regresar</a></li>
             </ol>
           </div>
         </div>
@@ -32,22 +31,21 @@
                     alt="User profile picture">
                 </div>
 
-                <h3 class="profile-username text-center"><?=$libros['nombre']; ?></h3>
+                <h3 class="profile-username text-center"><?=$autores['nombre']; ?></h3>
                 <p class="text-muted text-center">Imagen generica (ejemplo)</p>
 
                 <ul class="list-group list-group-unbordered mb-3">
                   <li class="list-group-item">
-                    <b>Nombre:</b> <a class="float-right"><?=$libros['nombre']; ?></a>
+                    <b>Nombre:</b> <a class="float-right"><?=$autores['nombre']; ?></a>
                   </li>
                   <li class="list-group-item">
-                    <b>Fecha de publicacion:</b> <a class="float-right"><?=$libros['fechaPublicacion']; ?></a>
+                    <b>Cantidad de libros:</b> <a class="float-right"><?php echo $canxautores ?></a>
                   </li>
                   <li class="list-group-item">
-                    <b>Edicion:</b> <a class="float-right"><?=$libros['edicion'];?></a>
+                    <b>Edicion:</b> <a class="float-right"></a>
                   </li>
                 </ul>
 
-                <a href="<?=base_url('/libros/agregarautor/'.$libros['id']) ?>" class="btn btn-primary btn-block"><b>Añadir Nuevo autor</b></a>
               </div>
               <!-- /.card-body -->
             </div>
@@ -61,15 +59,6 @@
               <div class="card-body">
                 <div class="tab-content">
                 <ul class="list-group list-group-unbordered mb-3">
-                  <li class="list-group-item">
-                    <b class="text-primary">Autor/es:</b>
-
-                    <?php foreach($autores as $autor) { ?>
-                     <p class="text-danger" style="margin-bottom: 5px;">
-                     <?php echo $autor->nombre . " " .$autor->apellido ?></p>
-                     <?php } ?>
-
-                  </li>
                   <li class="list-group-item">
                     <b class="text-primary">Descripcion:</b> <a class="float-right">1,322</a>
                   </li>

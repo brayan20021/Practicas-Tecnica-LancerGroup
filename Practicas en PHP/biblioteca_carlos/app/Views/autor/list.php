@@ -45,7 +45,8 @@
                       <td><?php echo $autor['apellido']; ?></td>
                       <td><?php echo $autor['pais']; ?></td>
                       <td>
-                      <a class="btn btn-warning" href="<?=base_url('/autores/modificar/'. $autor['id']) ?>">modificar</a>
+                      <a class="btn btn-primary" href="<?=base_url('/autores/verautor/'. $autor['id']) ?>">Detalles</a>
+                      <a class="btn btn-warning" href="<?=base_url('/autores/modificar/'. $autor['id']) ?>">Modificar</a>
                       <a class="btn btn-danger" href="<?=base_url('/borrarautor/'. $autor['id']) ?>" >Eliminar</a>
                       </td>
                       

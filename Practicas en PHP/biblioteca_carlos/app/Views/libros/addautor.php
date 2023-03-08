@@ -29,8 +29,8 @@
                 <option selected="selected" value="">Selecciona un autor</option>
 
                 <?php foreach($autores as $autor) { ?>
-                                    
-                <option value="<?php echo $autor['id'] ?>"><?php echo $autor['nombre'] ?></option>
+                  
+                  <option value="<?php echo $autor['id'] ?>"><?php echo $autor['nombre'] ?></option>
 
                 <?php } ?>
                 

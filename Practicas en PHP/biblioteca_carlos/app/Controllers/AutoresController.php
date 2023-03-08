@@ -4,15 +4,16 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use App\Models\Autor;
+use Exception;
 
 class AutoresController extends BaseController
 {
     public function lista()
     {
         $autor = new Autor();
-        $datos['autores'] = $autor->orderBy('id', 'ASC')->findAll();
+        $datos['autores'] = $autor->where('eliminado',0)->findAll();
 
-
+       
         return view('autor/list', $datos);
     }
 
@@ -82,9 +83,24 @@ class AutoresController extends BaseController
 
     }
 
+    public function verautor($id= null){
+
+        $autor = new Autor();
+
+        $datos['autores'] = $autor->where('id',$id)->first();
+        $datos['canxautores'] = $autor->where('id', $id)->countAllResults();
+
+        return view('autor/showactor',$datos);
+
+    }
+
     public function guardar(){
 
+        $Resultado = new \stdClass();
+        $Resultado->RES_CODE = "";
+        $Resultado->RES_DESCRIPTION = "";
 
+            try {
             $validacion = $this->validate([
 
             'nombre' => 'required|alpha_space|min_length[1]|max_length[60]',
@@ -94,9 +110,9 @@ class AutoresController extends BaseController
             ]);
 
         if(!$validacion){
-            $session = session();
-            $session->setFlashdata('mensaje', 'Asegurate que todos los datos esten correctamente, solo utiliza caracteres alfabeticos');
-            
+
+            $Resultado->RES_CODE = "01";
+            $Resultado->RES_DESCRIPTION = "Asegurate que todos los datos esten correctamente, solo utiliza caracteres alfabeticos";
                 
             /* return $this->response->redirect(site_url('/listar')); */
             
@@ -112,8 +128,20 @@ class AutoresController extends BaseController
                                 
                     $autor->insert($datos);
 
+                    $Resultado->RES_CODE = "00";
+                    $Resultado->RES_DESCRIPTION = "Registro exitoso";
+
              }
+            }
+            catch (Exception $ex) {
+                return print_r($ex->getMessage());
+                $Resultado->RES_CODE = "02";
+                $Resultado->RES_DESCRIPTION = $ex->getMessage();
+            }
+
+             return json_encode($Resultado);
     }
+
 
 
 }

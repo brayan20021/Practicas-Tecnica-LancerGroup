@@ -23,13 +23,24 @@ $.ajax({
             type: 'POST',
             data: datos, 
             success: function(response) {
+          var vResultado = JSON.parse(response);
+            
+            if (vResultado && vResultado.RES_CODE) {
+                if (vResultado.RES_CODE = "00")
+                {
+                    alert(vResultado.RES_DESCRIPTION);
+                } else {
+                    alert(vResultado.RES_DESCRIPTION);
+                }
+            }
 
-            console.log('Respuesta recibida: ' + response);         
+            console.log('Respuesta recibida: ' + response);      
         }
 
     });
 
-    window.location.href = "/autores/lista";
+    /* window.location.href = "/autores/lista"; */
+
 
 }
 
@@ -71,7 +82,7 @@ $.ajax({
             <div class="col-md-6">
             <div class="form-group">
                 <label>Nombre</label>
-                <input type="text" name="nombre" id="nombre" class="form-control">
+                <input type="text" name="nombre" id="nombre" class="form-control" required>
             </div>
             <!-- /.form-group -->
             <div class="form-group">
@@ -94,11 +105,15 @@ $.ajax({
             </div>
             <!-- /.row -->
 
-            <center><button type="submit" onclick="guardar()" class="btn btn-success">Guardar</button></center>
+            <center>
+              <button type="submit" onclick="guardar()" class="btn btn-success">Guardar</button>
+              <a class="btn btn-warning" href="<?=site_url('autores/lista') ?>">Cancelar</a>
+            </center>
 
             </div>
-        <!-- /.card-body -->
 
+            
+        <!-- /.card-body -->
     </div>
     <!-- /.card -->
 

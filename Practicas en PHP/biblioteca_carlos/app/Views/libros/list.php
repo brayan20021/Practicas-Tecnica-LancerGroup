@@ -31,8 +31,6 @@ $.ajax({
 
 }
 
-
-
 </script>
 
 <div class="content-header">
